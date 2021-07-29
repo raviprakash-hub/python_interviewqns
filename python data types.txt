@@ -1,0 +1,565 @@
+1)Name four of the main data types in Python
+Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data.
+Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction 
+and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte 
+strings in Python 3 are the types of string data types.
+
+
+ 
+2)Why are these data types known as Python’s core data types?
+They are known as the core data types because they are part of the Python language itself and are always available
+to create other objects, you usually need to call functions in imported modules.
+Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that 
+creates a string and determines the set of operations that can be applied to it. For this reason, main types are built 
+into Python syntax. Instead, you must call the built-in open function to create a file object.
+
+
+3)What does immutable mean and what three types of Python core data types are considered immutable?
+An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples 
+in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new
+one by running an expression.
+
+
+4)What does sequence mean and which three types of data fall into this category?
+A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are 
+the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing,
+ but also have type-specific method calls.
+
+
+ 
+5)What does mapping mean and what kind of data type is based on mapping?
+The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in 
+the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as
+ type-specific method calls.
+
+
+6)What is polymorphism and why should you care?
+Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated. This turns out to be a key 
+idea behind good use of Python, not coercing code to specific types makes that code automatically applied to many types.
+
+
+
+7)What is Python Operator?
+Python operator is a symbol that performs an operation on one or more operands. An operand is a variable or a value on which we perform the operation.
+
+
+8)Can we use Python Arithmetic Operations on strings?
+We can only use selected arithmetic operators on a string like we can concatenate two strings with the help of the addition (+) symbol.
+Likewise we can also multiply the strings by using the multiplication (*) symbol. In Python, only multiplication
+(*) and addition(+) are the two operators used for string operations.
+
+
+9)Does Python Have a Ternary Conditional Operator?
+yes, The ternary conditional operator is a short-hand method for writing an if/else statement. There are three components to the ternary operator:
+ the expression/condition, the positive value, and the negative value.
+
+
+10)Which conditional statements are available in Python ?
+Conditional statements are the programming statements which alter the course of execution based on a condition.
+Like other functional programming languages, Python has following conditional statements.
+Python If
+Python If-Else
+Python For
+Python While
+Conditional Statements are also called Control Statements.
+
+
+11)Which looping statements are available in Python ?
+Looping statements are those which repeat the execution of a set of statements in a cyclic manner based on a condition.
+Python For
+Python While
+
+
+12)What is the syntax for Python If statement ?
+Python If statement contains if keyword, condition followed by colon symbol (:), and then the statements of if block with indentation.
+if condition:
+    statement1
+    statement2
+    statementN
+
+
+13)How do you declare a variable in Python ?
+How do you convert float, int, complex value, tuple, list or dictionary to a string ? str() function can be used to convert other data type 
+value to string. str() accepts float, int, complex value, tuple, list or dictionary as an argument and returns string value.
+
+
+14)What are the mutable builtin datatypes available ?
+Mutable datatype are those
+List
+Sets
+Dictionaries
+
+
+15)What are the immutable builtin datatypes available ?
+Immutable datatypes are those
+Strings
+Tuples
+Numbers
+
+
+16)How to find substring of a string ?
+str[start_index:end_index] returns substring of a string, where
+str is the main string
+start_index is position of substring from which it starts in main string. If not provided, default value is 0.
+end_index is the ending index of substring in the main string. If not provided, default value is length of the main string.
+
+
+17) How does While loop in Python works?
+While loop iterates through a block of statements repetitively until the given condition returns False.
+This means, while loop first checks the given condition and if the condition isTrue, then it executes the block of statements
+inside the while loop. Whenever the condition returnsFalse, it breaks out of the loop and executes the next immediate line of code.
+
+
+
+18) How does For in Loop in Python works?
+For in loop in Python is similar to for loop in other languages. It is also used to iterate over a block of statements repeatedly
+until the condition returns False. For in loop is the best to use when we know the number of times to iterate. To iterate over a 
+sequence of numbers, we can also use the range and xrange functions in Python. However, Python 3 uses only range function.
+
+
+19)What are the different types of loops in Python?
+There are 2 different kinds of loops in Python. Namely,for in and while. Nested loops are a combination of these loops and hence 
+they may or may not be treated as a separate type of looping statement in Python.
+
+
+
+20) What is the use of loops in Python?
+Loops in Python are used to iterate over a set of statements repeatedly until they find the condition to be False.
+
+
+21)Explain Python Functions?
+A function is a section of the program or a block of code that is written once and can be executed whenever required in the program.
+A function is a block of self-contained statements which has a valid name, parameters list, and body. Functions make programming more 
+functional and modular to perform modular tasks. Python provides several built-in functions to complete tasks and also allows a user 
+to create new functions as well.
+
+
+22)What is zip() function in Python?
+Python zip() function returns a zip object, which maps a similar index of multiple containers. It takes an iterable, convert into iterator 
+and aggregates the elements based on iterables passed. It returns an iterator of tuples.
+
+
+PART 2
+
+
+1. What is Python?
+Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling and automatic memory management which help in modelling real-world problems and building applications to solve these problems.
+
+
+2. What are the benefits of using Python?
+Python is a general-purpose programming language that has simple, easy-to-learn syntax which emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, completely open-source and supports third-party packages encouraging modularity and code-reuse.
+Its high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of developers for Rapid Application Development and deployment.
+
+
+3. What is a dynamically typed language?
+Before we understand what a dynamically typed language, we should learn about what typing is. Typing refers to type-checking in programming languages. In a strongly-typed  language, such as Python, "1" + 2 will result in a type error, since these languages don't allow for "type-coercion" (implicit conversion of data types). On the other hand, a weakly-typed  language, such as Javascript, will simply output "12" as result.
+
+Type-checking can be done at two stages -
+
+Static - Data Types are checked before execution.
+Dynamic - Data Types are checked during execution.
+Python being an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed language.
+
+
+4. What is an Interpreted language?
+An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step.
+
+
+5. What is PEP 8 and why is it important?
+PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the Python Community, or describing a new feature for Python or its processes. PEP 8 is especially important since it documents the style guidelines for Python Code. Apparently contributing in the Python open-source community requires you to follow these style guidelines sincerely and strictly.
+
+
+6. How is memory managed in Python?
+Memory management in Python is handled by the Python Memory Manager. The memory allocated by the manager is in form of a private heap space dedicated for Python. All Python objects are stored in this heap and being private, it is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space.
+Additionally, Python has an in-built garbage collection to recycle the unused memory for the private heap space.
+
+
+
+7. What are Python namespaces? Why are they used?
+A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object. A few examples of namespaces are as follows:
+
+Local Namespace includes local names inside a function. the namespace is temporarily created for a function call and gets cleared when the function returns.
+Global Namespace includes names from various imported packages/ modules that is being used in the current project. This namespace is created when the package is imported in the script and lasts until the execution of the script.
+Built-in Namespace includes built-in functions of core Python and built-in names for various types of exceptions.
+Lifecycle of a namespace depends upon the scope of objects they are mapped to. If the scope of an object ends, the lifecycle of that namespace comes to an end. Hence, it isn't possible to access inner namespace objects from an outer namespace.
+
+
+8. What is Scope in Python?
+Every object in Python functions within a scope. A scope is a block of code where an object in Python remains relevant. Namespaces uniquely identify all the objects inside a program. However, these namespaces also have a scope defined for them where you could use their objects without any prefix. A few examples of scope created during code execution in Python are as follows:
+
+A local scope refers to the local objects available in the current function.
+A global scope refers to the objects available throught the code execution since their inception.
+A module-level scope refers to the global objects of the current module accessible in the program.
+An outermost scope refers to all the built-in names callable in the program. The objects in this scope are searched last to find the name referenced.
+Note: Local scope objects can be synced with global scope objects using keywords such as global.
+
+
+9. What is Scope Resolution in Python?
+Sometimes objects within the same scope have the same name but function differently. In such cases, scope resolution comes into play in Python automatically. A few examples of such behaviour are:
+
+Python modules namely 'math' and 'cmath' have a lot of functions that are common to both of them - log10(), acos(), exp() etc. To resolve this amiguity, it is necessary to prefix them with their respective module, like math.exp() and cmath.exp().
+Consider the code below, an object temp has been initialized to 10 globally and then to 20 on function call. However, the function call didn't change the value of the temp globally. Here, we can observe that Python draws a clear line between global and local variables treating both their namespaces as separate identities.
+temp = 10 	 # global-scope variable
+
+def func():
+      temp = 20   # local-scope variable
+      print(temp)
+
+print(temp) 	 # output => 10
+func() 		 # output => 20
+print(temp) 	 # output => 10
+This behaviour can be overriden using the global keyword inside the function, as shown in the following example:
+
+temp = 10 	 # global-scope variable
+
+def func():
+      global temp
+      temp = 20   # local-scope variable
+      print(temp)
+
+print(temp) 	 # output => 10
+func() 		 # output => 20
+print(temp) 	 # output => 20
+
+
+10. What are decorators in Python?
+Decorators in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion. For example:
+
+# decorator function to convert to lowercase
+def lowercase_decorator(function):
+    def wrapper():
+        func = function()
+        string_lowercase = func.lower()
+        return string_lowercase
+    return wrapper
+
+# decorator function to split words
+def splitter_decorator(function):
+    def wrapper():
+        func = function()
+        string_split = func.split()
+        return string_split
+    return wrapper
+
+@splitter_decorator	# this is executed next
+@lowercase_decorator	# this is executed first
+def hello():
+    return 'Hello World'
+
+hello() 	 # output => [ 'hello' , 'world' ]
+The beauty of the decorators lies in the fact that besides adding functionality to the output of the method, they can even accept arguments for functions and can further modify those arguments before passing it to the function itself. The inner nested function, i.e. 'wrapper' function, plays a significant role here. It is implemented to enforce encapsulation and thus, keep itself hidden from the global scope.
+
+# decorator function to capitalize names
+def names_decorator(function):
+    def wrapper(arg1, arg2):
+        arg1 = arg1.capitalize()
+        arg2 = arg2.capitalize()
+        string_hello = function(arg1, arg2)
+        return string_hello
+    return wrapper
+
+@names_decorator
+def say_hello(name1, name2):
+    return 'Hello ' + name1 + '! Hello ' + name2 + '!'
+
+say_hello('sara', 'ansh') 	 # output => 'Hello Sara! Hello Ansh!'
+
+
+11. What are lists and tuples? What is the key difference between the two?
+Lists and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).
+But what is the real difference between the two? The key difference between the two is that while lists are mutable, tuples on the other hand are immutable objects. This means that lists can be modified, appended or sliced on-the-go but tuples remain constant and cannot be modified in any manner. You can run the following example on Python IDLE to confirm the difference:
+
+my_tuple = ('sara', 6, 5, 0.97)
+my_list = ['sara', 6, 5, 0.97]
+
+print(my_tuple[0])     # output => 'sara'
+print(my_list[0])     # output => 'sara'
+
+my_tuple[0] = 'ansh'    # modifying tuple => throws an error
+my_list[0] = 'ansh'    # modifying list => list modified
+
+print(my_tuple[0])     # output => 'sara'
+print(my_list[0])     # output => 'ansh'
+
+
+12. What are Dict and List comprehensions?
+Python comprehensions, like decorators, are syntactic sugar constructs that help build altered and filtered lists, dictionaries or sets from a given list, dictionary or set. Using comprehensions, saves a lot of time and code that might be considerably more verbose (containing more lines of code). Let's check out some examples, where comprehensions can be truly beneficial:
+
+Performing mathematical operations on the entire list
+my_list = [2, 3, 5, 7, 11]
+
+squared_list = [x**2 for x in my_list]    # list comprehension
+# output => [4 , 9 , 25 , 49 , 121]
+
+squared_dict = {x:x**2 for x in my_list}    # dict comprehension
+# output => {11: 121, 2: 4 , 3: 9 , 5: 25 , 7: 49}
+Performing conditional filtering operations on the entire list
+my_list = [2, 3, 5, 7, 11]
+
+squared_list = [x**2 for x in my_list if x%2 != 0]    # list comprehension
+# output => [9 , 25 , 49 , 121]
+
+squared_dict = {x:x**2 for x in my_list if x%2 != 0}    # dict comprehension
+# output => {11: 121, 3: 9 , 5: 25 , 7: 49}
+Combining multiple lists into one
+Comprehensions allow for multiple iterators and hence, can be used to combine multiple lists into one.
+a = [1, 2, 3]
+b = [7, 8, 9]
+
+[(x + y) for (x,y) in zip(a,b)]  # parallel iterators
+# output => [8, 10, 12]
+
+[(x,y) for x in a for y in b]    # nested iterators
+# output => [(1, 7), (1, 8), (1, 9), (2, 7), (2, 8), (2, 9), (3, 7), (3, 8), (3, 9)]
+Flattening a multi-dimensional list
+A similar approach of nested iterators (as above) can be applied to flatten a multi-dimensional list or work upon its inner elements.
+my_list = [[10,20,30],[40,50,60],[70,80,90]]
+
+flattened = [x for temp in my_list for x in temp]
+# output => [10, 20, 30, 40, 50, 60, 70, 80, 90]
+Note: List comprehensions have the same effect as the map method in other languages. They follow the mathematical set builder notation rather than map and filter functions in Python.
+
+
+
+13. What are the common built-in data types in Python?
+There are several built-in data types in Python. Although, Python doesn't require data types to be defined explicitly during variable declarations but type errors are likely to occur if the knowledge of data types and their compatibility with each other are neglected. Python provides type() and isinstance() functions to check the type of these variables. These data types can be grouped into the following catetgories-
+
+None Type
+None keyword represents the null values in Python. Boolean equality operation can be performed using these NoneType objects.
+Class Name	Description
+NoneType	Represents the NULL values in Python
+
+Numeric Types
+There are three distint numeric types - integers, floating-point numbers, and complex numbers. Additionally, booleans are a sub-type of integers.
+Class Name	Description
+int	Stores integer literals including hex, octal and binary numbers as integers
+float	Stores literals containing decimal values and/or exponent sign as floating-point numbers
+complex	Stores complex number in the form (A + Bj) and has attributes: real and imag
+bool	Stores boolean value (True or False)
+Note: The standard library also includes fractions to store rational numbers and decimal to store floating-point numbers with user-defined precision.
+
+Sequence Types
+According to Python Docs, there are three basic Sequence Types - lists, tuples, and range objects. Sequence types have the in and not in operators defined for their traversing their elements. These operators share the same priority as the comparison operations.
+Class Name	Description
+list	Mutable sequence used to store collection of items.
+tuple	Immutable sequence used to store collection of items.
+range	Represents an immutable sequence of numbers generated during execution.
+str	Immutable sequence of Unicode code points to store textual data.
+Note: The standard library also includes additional types for processing:
+1. Binary data such as bytearray bytes memoryview , and
+2. Text strings such as str .
+
+Mapping Types
+A mapping object can map hashable values to random objects in Python. Mappings objects are mutable and there is currently only one standard mapping type, the dictionary.
+Class Name	Description
+dict	Stores comma-separated list of key: value pairs
+
+Set Types
+Currently, Python has two built-in set types - set and frozenset. set type is mutable and supports methods like add() and remove(). frozenset type is immutable and can't be modified after creation.
+Class Name	Description
+set	Mutable unordered collection of distinct hashable objects
+frozenset	Immutable collection of distinct hashable objects
+Note: set is mutable and thus cannot be used as key for a dictionary. On the other hand, frozenset is immutable and thus, hashable, and can be used as a dictionary key or as an element of another set.
+
+Modules
+Module is an additional built-in type supported by the Python Interpreter. It supports one special operation, i.e., attribute access: mymod.myobj, where mymod is a module and myobj references a name defined in m's symbol table. The module's symbol table resides in a very special attribute of the module __dict__, but direct assignment to this module is neither possible nor recommended.
+
+Callable Types
+Callable types are the types to which function call can be applied. They can be user-defined functions, instance methods, generator functions, and some other built-in functions, methods and classes.
+Refer the documentation at docs.python.org for a detailed view into the callable types.
+
+
+
+14. What is lambda in Python? Why is it used?
+Lambda is an anonymous function in Python, that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period. Lambda functions can be used in either of the two ways:
+
+Assigning lambda functions to a variable
+mul = lambda a, b : a * b
+print(mul(2, 5))    # output => 10
+Wrapping lambda functions inside another function
+def myWrapper(n):
+  return lambda a : a * n
+
+mulFive = myWrapper(5)
+print(mulFive(2))    # output => 10
+
+
+15. What is pass in Python?
+The pass keyword represents a null operation in Python. It is generally used for the purpose of filling up empty blocks of code which may execute during runtime but has yet to be written. Without the pass statement in the following code, we may run into some errors during code execution.
+
+def myEmptyFunc():
+    # do nothing
+    pass
+
+myEmptyFunc()    # nothing happens
+
+## Without the pass keyword
+# File "<stdin>", line 3
+# IndentationError: expected an indented block
+
+
+16. How do you copy an object in Python?
+In Python, the assignment statement (= operator) does not copy objects. Instead, it creates a binding between the existing object and the target variable name. To create copies of an object in Python, we need to use the copy module. Moreover, there are two ways of creating copies for the given object using the copy module -
+
+Shallow Copy is a bit-wise copy of an object. The copied object created has an exact copy of the values in the original object. If either of the values are references to other objects, just the reference addresses for the same are copied.
+Deep Copy copies all values recursively from source to target object, i.e. it even duplicates the objects referenced by the source object.
+from copy import copy, deepcopy
+
+list_1 = [1, 2, [3, 5], 4]
+
+## shallow copy
+
+list_2 = copy(list_1) 
+list_2[3] = 7
+list_2[2].append(6)
+
+list_2    # output => [1, 2, [3, 5, 6], 7]
+list_1    # output => [1, 2, [3, 5, 6], 4]
+
+## deep copy
+
+list_3 = deepcopy(list_1)
+list_3[3] = 8
+list_3[2].append(7)
+
+list_3    # output => [1, 2, [3, 5, 6, 7], 8]
+list_1    # output => [1, 2, [3, 5, 6], 4]
+
+17. What is the difference between xrange and range in Python?
+xrange() and range() are quite similar in terms of functionality. They both generate a sequence of integers, with the only difference that range() returns a Python list, whereas, xrange() returns an xrange object.
+
+So how does that make a difference? It sure does, because unlike range(), xrange() doesn't generate a static list, it creates the value on the go. This technique is commonly used with an object type generators and has been termed as "yielding".
+
+Yielding is crucial in applications where memory is a constraint. Creating a static list as in range() can lead to a Memory Error in such conditions, while, xrange() can handle it optimally by using just enough memory for the generator (significantly less in comparison).
+
+for i in xrange(10):    # numbers from o to 9
+    print i       # output => 0 1 2 3 4 5 6 7 8 9
+
+for i in xrange(1,10):    # numbers from 1 to 9
+    print i       # output => 1 2 3 4 5 6 7 8 9
+
+for i in xrange(1, 10, 2):    # skip by two for next
+    print i       # output => 1 3 5 7 9
+Note: xrange has been deprecated as of Python 3.x. Now range does exactly the same what xrange used to do in Python 2.x, since it was way better to use xrange() than the original range() function in Python 2.x.
+
+
+18. What are modules and packages in Python?
+Python packages and Python modules are two mechanisms that allow for modular programming in Python. Modularizing ahs several advantages -
+
+Simplicity: Working on a single module helps you focus on a relatively small portion of the problem at hand. This makes development easier and less error-prone.
+Maintainability: Modules are designed to enforce logical boundaries between different problem domains. If they are written in a manner that reduces interdependency, it is less likely that modifications in a module might impact other parts of the program.
+Reusability: Functions defined in a module can be easily reused by other parts of the application.
+Scoping: Modules typically define a separate namespace, which helps avoid confusion between identifiers from other parts of the program.
+Modules, in general, are simply Python files with a .py extension and can have a set of functions, classes or variables defined and implemented. They can be imported and initialized once using the import statement. If partial functionality is needed, import the requisite classes or functions using from foo import bar.
+
+Packages allow for hierarchial structuring of the module namespace using dot notation. As, modules help avoid clashes between global variable names, in a similary manner, packages help avoid clashes between module names.
+Creating a package is easy since it makes use of the system's inherent file structure. So just stuff the modules into a folder and there you have it, the folder name as the package name. Importing a module or its contents from this package requires the package name as prefix to the module name joined by a dot.
+
+Note: You can technically import the package as well, but alas, it doesn't import the modules within the package to the local namespace, thus, it is practically useless.
+
+
+19. What are global, protected and private attributes in Python?
+Global variables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use the global keyword.
+Protected attributes are attributes defined with a underscore prefixed to their identifier eg. _sara. They can still be accessed and modified from outside the class they are defined in but a responsible developer should refrain from doing so.
+Private attributes are attributes with double underscore prefixed to their identifier eg. __ansh. They cannot be accessed or modified from the outside directly and will result in an AttributeError if such an attempt is made.
+
+
+20. What is self in Python?
+Self is a keyword in Python used to define an instance or an object of a class. In Python, it is explicity used as the first paramter, unlike in Java where it is optional. It helps in disinguishing between the methods and attributes of a class from its local variables.
+
+
+
+PART 3
+
+
+
+1. What is PEP 8?
+Ans – PEP stands for Python Enhancement Proposal. It is a coding convention and it is a set of recommendation about how to write your Python code more readable.
+
+2. Define global and local variables in Python?
+Ans – In Python, The variables that are declared outside the function are called global variables. In Python, The variables that are declared inside a function are called local variables.
+
+
+ 
+3. How many types of loop statements?
+Ans – In Python, there are two types of loop statements are supported:
+while loop
+for loop
+
+4. How memory management is done in Python?
+Ans – In Python Memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. This private heap is taken care of by Python Interpreter itself.
+
+5. What are the modules in Python?
+Ans – The module is defined as a file that includes a set of various functions and Python statements.
+
+6. What are the built-in types available in Python?
+Ans – In Python, The built-in types are given as follows:
+1. Integer
+2. Complex numbers
+3. Floating-point numbers
+4. Strings
+
+7. Difference between .py and .pyc files.
+Ans – .py files are Python source files, .pyc files are the compiled bytecode files
+
+8. Define String in Python.
+Ans – The string is an immutable sequence data type. It is the sequence of Unicode characters wrapped inside single, double, or triple quotes.
+
+9. Define slicing in Python.
+Ans – A substring of a string is called a slice. Python Slice Operation is used to refer to sub-parts of sequences and strings. The subset of a string from the original string by using [ ] operator is known as Slicing Operator.
+
+10. How do you create a Python function?
+Ans – Function blocks start with the keyword def.
+def function_name(parameters):
+  <statement>
+11. Difference between List and Tuple in Python.
+Ans –
+List
+Tuple
+1. Lists are mutable	1. Tuples are immutable
+2. Lists are slower than tuples.	2. Tuples are faster than list.
+
+12. What is lambda function in Python?
+Ans – Lambda Function is throw-away functions, they are just needed where they have been created and it can be used anywhere a function is required. It’s just created by using the lambda keyword.
+
+13. Difference between Xrange and range?
+Ans – Xrange returns the xrange object, range returns the list and uses the same memory.
+
+14. What is _init_?
+Ans – Every package in Python is a directory that must have a special file called _init_.py. This file may not even have a single line of code. It’s simply added to indicate that this directory is not an ordinary directory and contains a python package.
+ 
+15. Define docstring in Python.
+Ans – In Python, Docstrings is also known as Documentation Strings. It is very important as they help tools to automatically generate online or printed documentation. It also helps users and readers of the code to interactively browse through code.
+
+16. How you can convert a number to a string?
+Ans – To convert a number to a string, use the str() built-in function. It has the following syntax:
+str(number)
+
+17. How do we reverse a list in Python?
+Ans – list.reverse() is used to reverse the objects of a list.
+
+18. How do we convert the string to lowercase?
+Ans – To convert a string to lowercase, lower() function can be used here.
+str='WEBEDUCLICK'
+print(str.lower())
+
+19. Define package in Python.
+Ans – In Python, A package is a hierarchical file directory structure that has modules and other packages within it. Python Packages are searched for in the path specified by sys.path.
+
+
+20. Define filter(), map(), reduce() in Python.
+Ans –
+
+filter(): The filter() function constructs a list from those elements of the list for which a function returns True.
+map(): The map() function applies a particular function to every element of a list.
+
+reduce(): The reduce() function returns a single value generated by calling the function on the first two items of the sequence, then on the result and the next item and so on.
+
+
+
+
+
+
+
+
+
